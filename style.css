@@ -1,0 +1,67 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+em{
+    font-size: 25px;
+}
+body{
+   font-family: "Nunito",sans-serif;
+   background: #f8f8f8;
+   background-color: rgb(142, 172, 172);
+}
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+input[type="submit"]{
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container{
+  width: 50%;
+  background: #e7e7e7;
+  height: 60vh;
+  margin: 50px auto;
+  border-radius: 2px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.container h1{
+  padding: 5px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container p{
+  text-align: center;
+  margin:40px 0;
+  font-size:20px;
+  font-weight: bold;
+}
